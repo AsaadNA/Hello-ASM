@@ -12,7 +12,7 @@ main proc
    mov bl,al
    int 21h
    add bl,al
-   sub bl,48
+   sub bl,48 
    mov dl,bl
    mov ah,2
    int 21h
