@@ -24,8 +24,7 @@ main proc
    mov ah,2
    mov cx,5
    print:
-      pop [si]
-      mov dl,[si]
+      pop dx
       int 21h
    loop print
 
